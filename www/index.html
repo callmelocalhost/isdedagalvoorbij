@@ -6,11 +6,18 @@
 <meta charset="utf-8">
 <script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
 <script type="text/javascript">
-     function onBodyLoad(){     
-        document.addEventListener("deviceready", onDeviceReady, false);
-     }
-     function onDeviceReady(){
-         window.location.href = isdedagalvoorbij.nl
-     }
-}
+	function onDeviceReady() {
+		var networkState = checkConnection();
+ 		/* load local files if there is not network connection */
+        	if (networkState == Connection.NONE) {
+                navigator.notification.alert('This app requires an internet connection');
+            } else {
+                window.location="http://isdedagalvoorbij.nl";
+            }
+   }
 </script>
+</head>
+<body>
+	<a href="http://isdedagalvoorbij.nl">link</a>
+</body>
+</html>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>is de dag al voorbij</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Just fun
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="localhost@gmail.com" href="http://callmelocalhost.com">
+        12730.0.1
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
