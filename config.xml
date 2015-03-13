@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.isdedagalvoorbij" version="0.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>is de dag al voorbij</name>
     <description>
         Just fun
     </description>
     <author email="localhost@gmail.com" href="http://callmelocalhost.com">
-        12730.0.1
+        127.0.0.1
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
